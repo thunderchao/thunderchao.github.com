@@ -1,12 +1,9 @@
-.container {
-    padding-top: 60px;
-}
 hr.large {
     border: none; height: 8px; background: #ebebeb; margin: 50px 0;
     display: block; clear: both; border-width: 1px 0 0;
 }
 hr.medium {
-    border: none; height: 4px; background: #ebebeb; margin: 20px 0;
+    border: none; height: 4px; background: #ebebeb; margin: 50px 0;
     display: block; clear: both; border-width: 1px 0 0;
 }
 a, a:visited {
@@ -14,12 +11,23 @@ a, a:visited {
 }
 a:hover {
     color: #000000;
+    text-shadow: 2px 2px #cccccc;
 }
 nav {
     position: fixed;
     width: 220px;
+    padding-top: 200px;
 }
-#insides {
+nav img {
+    padding-bottom: 10px;
+}
+nav li {
+    font-size: larger;
+}
+#top {
     display: block;
     padding-left: 240px;
+}
+h3 {
+    padding-bottom: 10px;
 }
