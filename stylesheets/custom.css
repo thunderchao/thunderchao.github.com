@@ -1,0 +1,25 @@
+.container {
+    padding-top: 60px;
+}
+hr.large {
+    border: none; height: 8px; background: #ebebeb; margin: 50px 0;
+    display: block; clear: both; border-width: 1px 0 0;
+}
+hr.medium {
+    border: none; height: 4px; background: #ebebeb; margin: 20px 0;
+    display: block; clear: both; border-width: 1px 0 0;
+}
+a, a:visited {
+    text-decoration: none; font-weight: bold; color: #555555;
+}
+a:hover {
+    color: #000000;
+}
+nav {
+    position: fixed;
+    width: 220px;
+}
+#insides {
+    display: block;
+    padding-left: 240px;
+}
