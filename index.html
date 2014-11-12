@@ -46,21 +46,19 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="container">
-        <div class="toggler">
-            <button class="toggle-slide-left"><img src="images/toggle-icon.png"></button>
-        </div>
-		<div class="four columns sidebar menu">
-            <nav>
+		<div class="four columns sidebar">
+            <nav class="menu slide-menu-left">
                 <!--<h3 id="logo">nathanielray.com</h3>-->
                 <div class="mobile">
                     <button class="close-menu"><img src="images/toggle-icon.png" id="toggle"></button>
-                    <a href="#top"><img src="images/logo-l.png" width="110" height="30" id="mini-logo"></a>
+                    <a href="#top"><img src="images/logo-l.png" onmouseover="this.src='images/logo-ld.png'"
+                    onmouseout="this.src='images/logo-l.png'" width="110" height="30" class="close-menu"></a>
                 </div>
                 <div class="full-size">
                     <a href="#top"><img src="images/logo-l.png" onmouseover="this.src='images/logo-ld.png'"
                     onmouseout="this.src='images/logo-l.png'"</a>
                 </div>
-                <ul>
+                <ul class="close-menu">
                     <li><a href="#bio">bio</a></li>
                     <li><a href="#contact">contact</a></li>
                     <li><a href="#pubs">publications</a></li>
@@ -74,8 +72,10 @@
         <div class="twelve columns content" id="top">
             <header>
                 <h1>nathaniel ray pickett<br>phd student, geography, university of kansas</h1>
+                <img src="images/logo-l.png" id="mini-logo">
             </header>
             <hr class="large">
+            <button class="nav-toggler toggle-slide-left"><img src="images/toggle-icon.png"></button>
             <div class="doc-section" id="bio">
                 <h3>biographical information</h3>
                 <p>i am originally from southern california, though i have spent considerable time living in the kansas
@@ -175,6 +175,9 @@
                 </ul>
             </div>
             <hr class="medium">
+            <div class="doc-section" id="copyright">
+                <p>© 2014 nathaniel ray pickett, built on <a href="http://getskeleton.com">skeleton</a></p>
+            </div>
         </div>
 
 	</div><!-- container -->
