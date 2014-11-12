@@ -73,7 +73,7 @@ body {
 #mini-logo {
     display: none;
 }
-
+/*
 @media screen and (max-width: 767px) {
     .full-size { display: none; }
     .mobile {
@@ -123,3 +123,4 @@ body {
     hr.large {margin: 10px 0;}
     hr.medium {margin: 10px 0;}
 }
+*/
