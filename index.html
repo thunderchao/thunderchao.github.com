@@ -46,11 +46,20 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="container">
-		<div class="four columns sidebar">
+        <div class="toggler">
+            <button class="toggle-slide-left"><img src="images/toggle-icon.png"></button>
+        </div>
+		<div class="four columns sidebar menu">
             <nav>
                 <!--<h3 id="logo">nathanielray.com</h3>-->
-                <a href="#top"><img src="images/logo-l.png" onmouseover="this.src='images/logo-ld.png'"
-                        onmouseout="this.src='images/logo-l.png'"></a>
+                <div class="mobile">
+                    <button class="close-menu"><img src="images/toggle-icon.png" id="toggle"></button>
+                    <a href="#top"><img src="images/logo-l.png" width="110" height="30" id="mini-logo"></a>
+                </div>
+                <div class="full-size">
+                    <a href="#top"><img src="images/logo-l.png" onmouseover="this.src='images/logo-ld.png'"
+                    onmouseout="this.src='images/logo-l.png'"</a>
+                </div>
                 <ul>
                     <li><a href="#bio">bio</a></li>
                     <li><a href="#contact">contact</a></li>
@@ -170,6 +179,8 @@
 
 	</div><!-- container -->
 
+<script src="js/classie.js"></script>
+<script src="js/menu-slide.js"></script>
 
 <!-- End Document
 ================================================== -->

@@ -31,3 +31,60 @@ nav li {
 h3 {
     padding-bottom: 10px;
 }
+
+button {
+    padding: 0;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border: none;
+    text-decoration: none;
+}
+#toggle {
+    margin: 5px 5px;
+}
+.mobile {
+    display: none;
+}
+body {
+    overflow-x: hidden;
+}
+.toggler {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .full-size { display: none; }
+    .mobile {
+        display: inline;
+    }
+    .toggler {
+        display: inline;
+        position: fixed;
+        top: 5px;
+        left: 5px;
+    }
+    div.menu {
+        position: fixed;
+        z-index: 20;
+        background-color: #67b5d1;
+        overflow: hidden;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        top: 0;
+        width: 150px;
+        height: 100%;
+        left: -150px;
+    }
+    div.menu li {
+        margin-left: 5px;
+    }
+    body.sml-open div.menu {
+        left: 0;
+    }
+    body.sml-open div.toggler{
+        display: none;
+    }
+}
