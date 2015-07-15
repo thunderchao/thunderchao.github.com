@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[nrp blog]]></title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  <link href="http://nathanielray.com/blog//"/>
+  <updated>2015-07-10T05:25:10.059Z</updated>
+  <id>http://nathanielray.com/blog//</id>
+  
+  <author>
+    <name><![CDATA[nrp]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[First Post]]></title>
+    <link href="http://nathanielray.com/blog/2015/07/09/first-post/"/>
+    <id>http://nathanielray.com/blog/2015/07/09/first-post/</id>
+    <published>2015-07-10T00:41:37.000Z</published>
+    <updated>2015-07-10T05:25:10.059Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/dLWnVYq.jpg" alt=""></p>
+<h1 id="Might_as_well_blog">Might as well blog</h1><p>It’s been a while since I’ve maintained a blog with any kind of regularity, but my upcoming Fulbright to Ukraine has prompted me to start up a new one. For those of you who, like my parents, would worry without any regular updates, look! You can get your updates here. And without the mass group email.</p>
+<p>I’ll still be active on twitter, but this medium allows for longer posts with more pictures and stuff. Consider it a facebook replacement that you don’t have to feel obligated to like every post or picture I put up.</p>
+<p>As far as the frequency of posts, I want to put up a new one every week or so, but I imagine that occasionally I won’t be in a place with reliable internet (or that I really just didn’t do anything interesting that week).</p>
+<p>But if you want to contact me while I’m in Ukraine, you should check out the <a href="/about/index.html">About</a> page that has all my contact info.</p>
+<p><em><small>The picture’s one I took when living in Ivano-Frankivsk in 2007</small></em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://i.imgur.com/dLWnVYq.jpg" alt=""></p>
+<h1 id="Might_as_well_blog">Might as well blog</h1><p>It’s been a while since I’ve ]]>
+    </summary>
+    
+      <category term="blog" scheme="http://nathanielray.com/blog/tags/blog/"/>
+    
+      <category term="Information" scheme="http://nathanielray.com/blog/categories/Information/"/>
+    
+  </entry>
+  
+</feed>
