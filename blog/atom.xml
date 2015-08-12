@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  
   <title><![CDATA[nrp blog]]></title>
   
   <link href="/blog/atom.xml" rel="self"/>
-  <link href="http://nathanielray.com/blog//"/>
-  <updated>2015-07-10T05:25:10.059Z</updated>
-  <id>http://nathanielray.com/blog//</id>
+  <link href="http://nathanielray.com/"/>
+  <updated>2015-08-12T20:12:11.521Z</updated>
+  <id>http://nathanielray.com/</id>
   
   <author>
     <name><![CDATA[nrp]]></name>
@@ -16,9 +15,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Orientation]]></title>
+    <link href="http://nathanielray.com/2015/08/12/Orientation/"/>
+    <id>http://nathanielray.com/2015/08/12/Orientation/</id>
+    <published>2015-08-12T19:29:21.000Z</published>
+    <updated>2015-08-12T20:12:11.521Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/EaC1X04.jpg" alt=""></p>
+<p>At the end of July I attended the Fulbright Pre-Departure Orientation (PDO) in DC. It was a nice gig, the State Department (I think) paid for the flight and hotel, and we had a nice time at the orientation getting to know each other. This was the first time I was in DC, too, so I tried to make it out to as much as I could see in the small amount of free time I had.</p>
+<h1 id="PDO_and_the_Group">PDO and the Group</h1><p>The group of students going to Ukraine seems like a good one, if kinda small: three English teachers (going to Chernivtsi, Vinnitsya, and Zhytomyr) and six researchers (all but one going to Kyiv). I was actually surprised at how young the group is—all three of the ETAs and two of the student researchers have graduated college in the past couple years. There was one guy who couldn’t make it, but besides him, there were only two others who were PhD students/candidates. There are also a bunch of scholars (I think all of them are faculty at some uni or another), but we didn’t get to know them that well.</p>
+<p>It was also kind of odd that of the eight of us students that attended PDO, only one other besides myself wasn’t from or going to school in New England. Maine was heavily represented, which seems quite odd.</p>
+<p>The orientation itself was just fine, though it seemed to be geared more towards people that had never left the country before, which makes sense since you gotta hit the lowest common denominator in a group as large as this one. I didn’t bother counting, but it looked like there were a good 400 Fulbrighters going off to countries in the East Europe and Eurasia region. Like any conference, there were some good panels and some lame panels. I’ll spare you the play-by-play of events, but here were some choice highlights:</p>
+<ul>
+<li>the head hotel staff guy when calling everyone to order would play a golden xylophone to get us to be quiet and sit</li>
+<li>the view from our room was pretty cool (see pic below), this weird indoor courtyard deal</li>
+<li>Anders Aslund made some controversial remarks and got slammed for them in the first question in the Q&amp;A section</li>
+<li>only one other person besides me in the group has no Ukrainian ancestry</li>
+<li>only one person in the group has not been to Ukraine before</li>
+<li>AIPAC was also having a convention the same time as us</li>
+<li>the hotel food was serviceable but overall underwhelming, except for the desserts the first night </li>
+<li>the guy giving a presentation on issues for LGBTQI people going to the region was pretty insensitive, contradictory, and troubling—his whole message was basically “just go back in the closet for 9 months” but at the end said “now I’m not telling you to back into the closet…”</li>
+</ul>
+<p><img src="http://i.imgur.com/c0XGb3d.jpg" alt=""></p>
+<h1 id="Washington_DC">Washington DC</h1><p>Reagan Airport was my initial point of contact to the city, and boy is that architecture a product of its times. Cool-looking though. I opted to take the metro into the city and I quite liked it, even though I went the wrong way on the blue line for a stop. The cars on the train though were in rougher shape than the ones in Chicago that I saw. I couldn’t help but notice just how closely Bethesda modeled their Fallout 3 subway stations after their real-life counterparts.</p>
+<p>After dinner, a bunch of us walked down to the Washington Monument as it was getting dark. It was fine. What did strike me though was just how much acreage is dedicated to parks and monuments. When on the last day we went to the White House, the WW2 Memorial, the Lincoln Memorial, and the places in between I was surprised at just how much room there was in between each thing. The winner of coolest/best memorial in terms of aesthetics? Korean War.</p>
+<p>I also got to meet up with my cousin-in-law Scott as he was getting off work in some State Department office where he does something along the lines of coordinating AIDS relief efforts and aid. Had some tasty froyo, which was nice because it was sweltering. I didn’t realize it until I saw the ground flying into the airport, but DC’s just a giant swamp and it sure felt like it.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://i.imgur.com/EaC1X04.jpg" alt=""></p>
+<p>At the end of July I attended the Fulbright Pre-Departure Orientation (PDO) in D]]>
+    </summary>
+    
+      <category term="Fulbright program" scheme="http://nathanielray.com/tags/Fulbright-program/"/>
+    
+      <category term="group" scheme="http://nathanielray.com/tags/group/"/>
+    
+      <category term="Update" scheme="http://nathanielray.com/categories/Update/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[First Post]]></title>
-    <link href="http://nathanielray.com/blog/2015/07/09/first-post/"/>
-    <id>http://nathanielray.com/blog/2015/07/09/first-post/</id>
+    <link href="http://nathanielray.com/2015/07/09/first-post/"/>
+    <id>http://nathanielray.com/2015/07/09/first-post/</id>
     <published>2015-07-10T00:41:37.000Z</published>
     <updated>2015-07-10T05:25:10.059Z</updated>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/dLWnVYq.jpg" alt=""></p>
@@ -33,9 +71,9 @@
 <h1 id="Might_as_well_blog">Might as well blog</h1><p>It’s been a while since I’ve ]]>
     </summary>
     
-      <category term="blog" scheme="http://nathanielray.com/blog/tags/blog/"/>
+      <category term="blog" scheme="http://nathanielray.com/tags/blog/"/>
     
-      <category term="Information" scheme="http://nathanielray.com/blog/categories/Information/"/>
+      <category term="Information" scheme="http://nathanielray.com/categories/Information/"/>
     
   </entry>
   
