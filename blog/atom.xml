@@ -3,9 +3,9 @@
   <title><![CDATA[nrp blog]]></title>
   
   <link href="/blog/atom.xml" rel="self"/>
-  <link href="http://nathanielray.com/"/>
+  <link href="http://nathanielray.com/blog/"/>
   <updated>2015-09-11T18:41:15.909Z</updated>
-  <id>http://nathanielray.com/</id>
+  <id>http://nathanielray.com/blog/</id>
   
   <author>
     <name><![CDATA[nrp]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[The First Week]]></title>
-    <link href="http://nathanielray.com/2015/09/11/The-First-Week/"/>
-    <id>http://nathanielray.com/2015/09/11/The-First-Week/</id>
+    <link href="http://nathanielray.com/blog/2015/09/11/The-First-Week/"/>
+    <id>http://nathanielray.com/blog/2015/09/11/The-First-Week/</id>
     <published>2015-09-11T17:36:46.000Z</published>
     <updated>2015-09-11T18:41:15.909Z</updated>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/vOKK9gC.jpg" alt=""></p>
@@ -37,16 +37,16 @@
 <p>Ok, technically the First Week isn’t even over yet, but it’s Friday night and it]]>
     </summary>
     
-      <category term="Kyiv" scheme="http://nathanielray.com/tags/Kyiv/"/>
+      <category term="Kyiv" scheme="http://nathanielray.com/blog/tags/Kyiv/"/>
     
-      <category term="Update" scheme="http://nathanielray.com/categories/Update/"/>
+      <category term="Update" scheme="http://nathanielray.com/blog/categories/Update/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Orientation]]></title>
-    <link href="http://nathanielray.com/2015/08/12/Orientation/"/>
-    <id>http://nathanielray.com/2015/08/12/Orientation/</id>
+    <link href="http://nathanielray.com/blog/2015/08/12/Orientation/"/>
+    <id>http://nathanielray.com/blog/2015/08/12/Orientation/</id>
     <published>2015-08-12T11:29:21.000Z</published>
     <updated>2015-08-12T12:12:12.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/EaC1X04.jpg" alt=""></p>
@@ -74,18 +74,18 @@
 <p>At the end of July I attended the Fulbright Pre-Departure Orientation (PDO) in D]]>
     </summary>
     
-      <category term="Fulbright program" scheme="http://nathanielray.com/tags/Fulbright-program/"/>
+      <category term="Fulbright program" scheme="http://nathanielray.com/blog/tags/Fulbright-program/"/>
     
-      <category term="group" scheme="http://nathanielray.com/tags/group/"/>
+      <category term="group" scheme="http://nathanielray.com/blog/tags/group/"/>
     
-      <category term="Update" scheme="http://nathanielray.com/categories/Update/"/>
+      <category term="Update" scheme="http://nathanielray.com/blog/categories/Update/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[First Post]]></title>
-    <link href="http://nathanielray.com/2015/07/09/first-post/"/>
-    <id>http://nathanielray.com/2015/07/09/first-post/</id>
+    <link href="http://nathanielray.com/blog/2015/07/09/first-post/"/>
+    <id>http://nathanielray.com/blog/2015/07/09/first-post/</id>
     <published>2015-07-09T16:41:37.000Z</published>
     <updated>2015-07-09T21:25:12.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/dLWnVYq.jpg" alt=""></p>
@@ -100,9 +100,9 @@
 <h1 id="Might_as_well_blog">Might as well blog</h1><p>It’s been a while since I’ve ]]>
     </summary>
     
-      <category term="blog" scheme="http://nathanielray.com/tags/blog/"/>
+      <category term="blog" scheme="http://nathanielray.com/blog/tags/blog/"/>
     
-      <category term="Information" scheme="http://nathanielray.com/categories/Information/"/>
+      <category term="Information" scheme="http://nathanielray.com/blog/categories/Information/"/>
     
   </entry>
   
