@@ -4,7 +4,7 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://nathanielray.com/blog/"/>
-  <updated>2015-09-28T23:43:07.657Z</updated>
+  <updated>2015-09-28T23:47:54.970Z</updated>
   <id>http://nathanielray.com/blog/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://nathanielray.com/blog/2015/09/29/Photo-Dump-1/"/>
     <id>http://nathanielray.com/blog/2015/09/29/Photo-Dump-1/</id>
     <published>2015-09-28T23:29:09.000Z</published>
-    <updated>2015-09-28T23:43:07.657Z</updated>
+    <updated>2015-09-28T23:47:54.970Z</updated>
     <content type="html"><![CDATA[<p>I’ve been taking a bunch of photos and not all of them make it into my posts. So here’s a bunch all in one dump. Page is probably going to take a while to load, fyi. These are in no particular order and will have only the barest of captions. Hit me up on twitter <a href="http://twitter.com/ghostlenin" target="_blank" rel="external">@ghostlenin</a> if you have questions or whatever. Click to make em bigger.</p>
 <p><img src="" alt=""><br><em><small></small></em></p>
 <p><img src="http://i.imgur.com/Bq4MN4V.jpg" alt=""><br><em><small>Weird, racist scene at Dream Town 2, a too-big mall</small></em></p>
@@ -44,7 +44,11 @@
     <![CDATA[<p>I’ve been taking a bunch of photos and not all of them make it into my posts. So here’s a bunch all in one dump. Page is probably going t]]>
     </summary>
     
-      <category term="Photos" scheme="http://nathanielray.com/blog/tags/Photos/"/>
+      <category term="Kyiv" scheme="http://nathanielray.com/blog/tags/Kyiv/"/>
+    
+      <category term="food" scheme="http://nathanielray.com/blog/tags/food/"/>
+    
+      <category term="Photos" scheme="http://nathanielray.com/blog/categories/Photos/"/>
     
   </entry>
   
@@ -53,7 +57,7 @@
     <link href="http://nathanielray.com/blog/2015/09/28/Orientation-and-Brazil/"/>
     <id>http://nathanielray.com/blog/2015/09/28/Orientation-and-Brazil/</id>
     <published>2015-09-28T08:29:51.000Z</published>
-    <updated>2015-09-28T23:28:55.734Z</updated>
+    <updated>2015-09-28T23:48:58.563Z</updated>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/5oWjH4J.jpg" alt=""></p>
 <p>Well, first off, I meant to write something last week. I really did, I promise. Lots to catch up on, a real updatey-update.</p>
 <p>First things first then, I guess. I moved into my new apartment in Podil, once the historic market quarter and port of old Kyiv, now the cool, trendy part of town. Kyiv-Mohyla and the Ukrainian National Chornobyl Museum are blocks away, and I’m a 4 minute walk to the metro. My neighborhood is quiet and I have everything I need nearby. Sure, the apartment’s a studio on the 4th floor with no lift, but it fits my needs and I can’t ask for a better location. Huge shout out to <a href="http://teren.kiev.ua" target="_blank" rel="external">Teren Plus</a> for being great. The pic up top is the view from the window.</p>
@@ -79,7 +83,13 @@
 <p>Well, first off, I meant to write something last week. I really did, I promise. ]]>
     </summary>
     
-      <category term="Update" scheme="http://nathanielray.com/blog/tags/Update/"/>
+      <category term="Fulbright program" scheme="http://nathanielray.com/blog/tags/Fulbright-program/"/>
+    
+      <category term="Kyiv" scheme="http://nathanielray.com/blog/tags/Kyiv/"/>
+    
+      <category term="group" scheme="http://nathanielray.com/blog/tags/group/"/>
+    
+      <category term="Update" scheme="http://nathanielray.com/blog/categories/Update/"/>
     
   </entry>
   
