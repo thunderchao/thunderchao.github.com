@@ -1,0 +1,13 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+}
+.container {
+  padding-top: 4.5rem;
+}
+ul {
+  list-style-type: none;
+}
+red {color:red;}
+black {color:black;}
+joker {color:rgb(87, 171, 240);}

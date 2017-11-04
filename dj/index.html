@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DECKJAMMERS: a cyberpunk game</title>
+    <!— Required meta tags —>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!— Bootstrap CSS —>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar-top-fixed.css">
+  </head>
+  <body class="bg-dark text-secondary" data-spy="scroll" data-target="#navbarNavAltMarkup">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+      <a class="navbar-brand" href="#">DECKJAMMERS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#setti">setting</a></li>
+          <li class="nav-item"><a class="nav-link" href="#decks">the deck</a></li>
+          <li class="nav-item"><a class="nav-link" href="#chars">characters</a></li>
+          <li class="nav-item"><a class="nav-link" href="#shops">shoplists</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skill">skills</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">rules</a>
+            <div class="dropdown-menu navbar-dark bg-secondary" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#rules">checks</a>
+              <a class="dropdown-item" href="#comba">combat</a>
+              <a class="dropdown-item" href="#other">other rules</a>
+            </div>
+          </li> 
+          <li class="nav-item"><a class="nav-link" href="#cheat">cheatsheet</a></li>         
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="container" id="setti">
+      <div class="row">
+        <div class="col-8">
+          <h2>SETTING</h2>
+          <p>Oh, it’s bad. Automation means that unless you’re an owner or lucky enough to have a job that 
+            requires actual human skills, you’re slumming it. Hard. So what do you do? You hustle. You scam. 
+            You steal. You doublecross. You make friends. And you try to stay one step ahead of everyone who’s 
+            trying to do the same to you.</p>
+          <p>But the second tech revolution isn’t without some benefit. Most everyone gets hardwired for net 
+            access real young—hospitals are even offering it at birth—artificial organs can keep you alive 
+            and even healthier than human, provided you can either make your interest payments or stay one 
+            step ahead of the repo man, and cybernetic enhancements are as common as tattoos and piercings, 
+            if not moreso.</p>
+          <p>The big corporate boys still run the show, but there's plenty of place in the middle, all those
+            elevated gangsters living that petty bouj high life. Anywhere you look, somebody's trying to squeeze
+            you out, shut you down, shut you up, wipe you out, co-opt you, break you down, pull one over on you.
+            What can you say, it's a living.</p>
+          <p>You and your crew have managed to eke out a kind of anxious stability: you’ve got your turf, and 
+            you’ve done well enough to not be on anyone major’s radar. Until today that is, when somebody’s 
+            cousin limps into the door of the pizza joint, opium den, backroom casino, Hot Topic, community 
+            garden, tattoo parlor, underage bar, abandoned public school gymnasium, or wherever it is you and 
+            your crew call home. And they’ve got bad news—some bogeyman’s decided you’ve stuck your all’s head 
+            out just high enough from the human filth pile to be noticed. Time to put on your danger face.</p>
+        </div>
+        <div class="col-4">
+          <img src="img/city.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="decks">
+        <div class="row">
+          <div class="col">
+            <h2>THE DECK</h2>
+            <p>Your deck is your life. It controls the actions and flows of the world. You’ll be drawing through 
+              your deck for combat and checks—anything that requires more than casual effort. Your deck starts 
+              off with 27 cards: one full suit each in <red>red</red> and <black>black</black>, and one 
+              <joker>joker</joker>. Jacks are worth 11, queens 12, kings 13, and aces 14 when they need to be a 
+              number. There are a number of keywords that will come up that you need to know:</p>
+            <ul>
+              <li><strong>Draw. </strong>Take however many cards from your deck, put them in your hand.
+                "Drawing up" is drawing enough cards to get back to max hand size (usually 5).</li>
+              <li><strong>Flip. </strong>Flip the top card of your deck over and discard it. The difficulty of 
+                the task determines what you'll need to flip to succeed: flip target is the 
+                hardest, then flip ace, then flip face, then flip <black>black</black>/<red>red</red>.</li>
+              <li><strong>Discard. </strong>Remove a card from your hand or deck into a face-up pile.</li>
+              <li><strong>Ace. </strong>Aces are crits—both fails and hits. They do different things depending 
+                on context.</li>
+              <li><strong>Shuffle. </strong>Shuffle your hand, discards, and deck. You shuffle after a combat 
+                encounter, checks, when resting in combat, and when you draw a joker.</li>
+              <li><strong><joker>Joker</joker>. </strong>Drawing a <joker>joker</joker> activates your joker 
+                skill and has you shuffle and draw up on the spot.</li>
+            </ul>
+            <p>The GM uses a full deck of 54 (both <joker>jokers</joker>) for his/her side of encounters—that 
+              means all 4 guys in that rival biker gang or whatever are drawing from the same deck. If you’re 
+              fighting areal tough dude though, one of those real legendary motherfuckers, the GM might use a 
+              separate 27-card deck just for that guy.</p>  
+          </div>
+        </div>
+      </div>
+
+    <div class="container" id="chars">
+      <div class="row">
+        <div class="col">
+          <h2>CHARACTERS</h2>
+          <p>Characters in DECKJAMMERS have no class or race (but they are low-class and of any human race you'd 
+            like). Life for your character has been pretty shitty so far, and nobody expects it'll get much better.
+            Except now, your back's right up against the wall—and who knows, you might even come out the other
+            end a litter better off.</p>
+          <p>Your crew, made up of the characters you and your friends are playing as, is a big part of your 
+            character's identity. You've known each other for a while at least, probably, and you've got each 
+            others' backs. That's not to say you're all clones or something like that; far from it. Think of any 
+            crew from literally any movie, tv show, book, comic, whatever: you've each got your own personalities,
+            strengths, and weaknesses, but hopefully you're all different enough to cover all the bases without any 
+            too-gaping holes. That's why you really should all do character creation together.
+          </p>
+          <p>Character creation is done in three steps. 1: Get an idea for your character. What are they like? 
+            Actually take a minute to describe your character's personality, likes, dislikes, talents, aesthetic, 
+            all that, and give yourself some kind of defining characteristic: a quirk, shtick, signature item—an 
+            iconic element of self. Step 2 is figuring out your attributes (see below) and step 3 is buying your 
+            <a href="#skill">skills</a> and <a href="#shops">enhancements</a>.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <h3>Main attributes</h3>
+          <p>There are five attributes: face, footwork, handeye, toughness, and smarts. Secondary attributes like HP 
+            and defensive stats are derived from these, and your attribute scores directly affect how well you can do 
+            the things you want to do. At character creation, you have 10 points to distribute among the five 
+            attributes, but you can’t put more than 4 points into one attribute.</p>
+          <p><strong>Face</strong> is the social attribute. It’s the measurement of your charm, charisma, confidence, 
+            ability to successfully bullshit, negotiate, barter, inspire, and persuade.</p>
+          <p><strong>Footwork</strong> is the agility attribute. More points means you’re faster and harder to hit 
+            with ranged attacks, like by bullets from guns.</p>
+          <p><strong>Handeye</strong> is the dexterity attribute. Most of the time, this one is going to come into 
+            play when you’re trying to shoot things or people. Also, driving and playing videogames. And stealing.</p>
+          <p><strong>Toughness</strong> is the strength attribute. It’s used for three major things: calculating 
+            your HP, how hard it is to damage you with a melee attack, and how well you can do melee attacks.</p>
+          <p><strong>Smarts</strong> is the knowledge attribute. Need to remember something? Need to research 
+            something? Need to make repairs? Need to tell if someone’s lying? Need to hack some shit? Smarts is it.</p>
+        </div>
+        <div class="col-6">
+          <h3>Derived attributes</h3>
+          <p>Your HP is 1 plus your toughness score. Damage in DECKJAMMERS is abstracted fairly heavily: 
+            if an attack hits you, you’re most likely taking one point of damage (unless their attack was a pretty 
+            boss skill, in which case it’ll probably be more than one). If your HP gets to 0, you’re KO’d and all 
+            you can do is flip one on your turn until you’re no longer KO’d. If your HP hits your negative toughness 
+            score, you’re dead. We’ll get to the rules for all that later though.</p>
+          <p>The order in which you’ll act in combat encounters is based on your footwork score. Depending on how 
+            your GM wants to do it, there’s two ways to handle initiative. The first is more dynamic but also there’s 
+            more to keep track of: everyone (including each bad guy) flips a card, adds their footwork score to it, 
+            and then you all go in descending order. In case of a tie, a <black>black</black> flipped card will always 
+            beat a <red>red</red> flipped card; if they’re both the same, work it out amongst yourselves. The second 
+            is you just go in order of highest total footwork for each side, and your crew and the bad guys acts in 
+            blocs.</p>
+          <p>How far you can move in combat is also determined from footwork. DECKJAMMERS uses squares, like on 
+            those battlemat grids. A square’s either 5ft or 2m a side, or somewhere in between, depending on your 
+            feelings about the metric system and how big of a rules wonk nob you are. Everyone gets 4 squares of 
+            movement, plus one more for every point they have in footwork. Yes, that does mean you can be very, 
+            very fast if you want to be.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="shops">
+      <div class="row">
+        <div class="col">
+          <img src="img/market.jpg" class="float-left img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>SHOPLISTS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>There is no XP in DECKJAMMERS. Instead, you take the cash money you get for completing assignments, 
+            beating fools, legitimate business enterprises (lol), and outright theft and you turn that into new 
+            and better gear, and new and better skills (which are in the next section). Nevertheless, your crew 
+            or the GM should keep a running total of money earned as a general gauge for your crew’s progress.</p> 
+          <p>At character creation, you’ll start out with $473 each—it’s all you were able to scrounge together, 
+            divided by how many of you there are in your crew. It’s not much, but it’s enough to get started. 
+            Especially in a world where you can bet just about everyone is kitted out in some way or another. In 
+            other words: unless you buy some cool-ass fists, your punches ain't doing shit to nobody. With $473 
+            you won’t be able to afford any of the highest-tech gear and cybernetics of course, but that money’s 
+            good at Crazy Hakeem’s Discount Gun Emporium and Dok Roberks’ Bakkalley Kcybers, which are as good as 
+            places as any to get started. Oh, and there’s always the more legitimate outfits as well, like Lexwell 
+            Cybernetics, Inc., but given your abysmal credit history, the interest rate on the loan they give you 
+            is going to be killer. Probably literally if you miss a payment. But seriously, your interest rate is 
+            31.4%.</p>
+          <p>Cybernetics are limited by your body. Meaning, you have two eyes, so unless you shell out for a third, 
+            you can only take two eye skills. If some cyber part replaces, for example, both legs, then you can’t 
+            take another leg enhancement. Use common sense here.</p>
+          <p>Some of these give you a new attack--jot that down on your sheet somewhere, you can use those like you
+            would a melee weapon or gun or something. Others might tell you you have a new skill, in which case 
+            you'd add a skill you bought outright (again, covered in the next section).</p>
+          <p>You might notice there’s no armor. Duh. Who the hell wears armor in an urban proletarian hellscape? 
+            This isn’t Mad Max.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="crazy">
+          <h3>Crazy Hakeem’s Discount Gun and Blade Emporium</h3>
+          <table class="table table-striped table-dark table-sm ml-3 w-75">
+              <tbody>
+                <tr>
+                  <td>Pistol</td>
+                  <td>$41</td>
+                  <td>Ranged, 1-8sq</td>
+                  <td>13 rounds</td>
+                </tr>
+                <tr>
+                  <td>Shotgun</td>
+                  <td>$58</td>
+                  <td>Ranged, 1-5sq</td>
+                  <td>6 rounds</td>
+                </tr>
+                <tr>
+                  <td>Submachine gun</td>
+                  <td>$66</td>
+                  <td>Ranged, 1-8sq</td>
+                  <td>30 rounds</td>
+                </tr>
+                <tr>
+                  <td>AK-47</td>
+                  <td>$128</td>
+                  <td>Ranged, 2-10sq</td>
+                  <td>30 rounds</td>
+                </tr>
+                <tr>
+                  <td>Sniper rifle</td>
+                  <td>$194</td>
+                  <td>Ranged, 3-20sq</td>
+                  <td>3 rounds</td>
+                </tr>
+                <tr>
+                  <td>Weeb katana</td>
+                  <td>$81</td>
+                  <td>Melee, can use handeye</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Sledgehammer</td>
+                  <td>$43</td>
+                  <td>Melee</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Fireman axe</td>
+                  <td>$55</td>
+                  <td>Melee, ranged 1-3sq</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Ninja starzzz</td>
+                  <td>$62</td>
+                  <td>Ranged, 2-6sq</td>
+                  <td>Set of 8</td>
+                </tr>
+                <tr>
+                  <td>Taser</td>
+                  <td>$90</td>
+                  <td>Ranged, 1-6sq, 0 damage, stuns 1 round</td>
+                  <td>2 charges</td>
+                </tr>
+                <tr>
+                  <td>Crossbow</td>
+                  <td>$267</td>
+                  <td>Ranged, 1-8sq</td>
+                  <td>1 bolt, +1 damage</td>
+                </tr>
+                <tr>
+                  <td>Hackjack</td>
+                  <td>$107</td>
+                  <td>Ranged, 1-3sq, allows remote hacking</td>
+                  <td>Set of 4</td>
+                </tr>
+                <tr>
+                  <td>Ammo</td>
+                  <td>$1/per</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col" id="dokro">
+            <h3>Dok Roberks’ Bakkalley Kcybers</h3>
+            <table class="table table-striped table-dark table-sm ml-3 w-75">
+                <tbody>
+                  <tr>
+                    <td>Kikking legks</td>
+                    <td>$118</td>
+                    <td>Kick attack: melee</td>
+                  </tr>
+                  <tr>
+                    <td>Magnetik feet</td>
+                    <td>$79</td>
+                    <td>Can stand on any metal surface without falling off</td>
+                  </tr>
+                  <tr>
+                    <td>Usain Bolt Classics</td>
+                    <td>$173</td>
+                    <td>+1 footwork, once per encounter you can move 10sq</td>
+                  </tr>
+                  <tr>
+                    <td>Thermopeepers K-1</td>
+                    <td>$144</td>
+                    <td>Can see where hidden living being are within 3sq</td>
+                  </tr>
+                  <tr>
+                    <td>Pheromoaner</td>
+                    <td>$91</td>
+                    <td>+1 face, in face checks: draw an extra card vs people attracted to you</td>
+                  </tr>
+                  <tr>
+                    <td>No-Shake Hans</td>
+                    <td>$139</td>
+                    <td>Range upper limit +2sq for all guns</td>
+                  </tr>
+                  <tr>
+                    <td>Smokky Rektumson</td>
+                    <td>$183</td>
+                    <td>Skill: smoke grenade, obscures line-of-sight in 4sq cube</td>
+                  </tr>
+                  <tr>
+                    <td>Rokk Hard Abz</td>
+                    <td>$240</td>
+                    <td>+1 toughness</td>
+                  </tr>
+                  <tr>
+                    <td>Swiss Amry Fingkers</td>
+                    <td>$188</td>
+                    <td>+1 smarts, draw an extra card when hacking or repairing</td>
+                  </tr>
+                  <tr>
+                    <td>Eye Lasers: Superman Style</td>
+                    <td>$179</td>
+                    <td>Eye laser attack: ranged, 1-8sq</td>
+                  </tr>
+                  <tr>
+                    <td>Eye Lasers: Cyclops Style</td>
+                    <td>$276</td>
+                    <td>Eye laser attack: ranged, against all in 8sq cone</td>
+                  </tr>
+                  <tr>
+                    <td>Eye Lasers: Darkseid Style</td>
+                    <td>$205</td>
+                    <td>Eye laser attack: ranged, 1-8sq, can go around corners</td>
+                  </tr>
+                  <tr>
+                    <td>Rokket Fist</td>
+                    <td>$122</td>
+                    <td>Grapple hook 6sq, rocket fist attack: ranged, 6sq, no damage, disarm and knock down target</td>
+                  </tr>
+                  <tr>
+                    <td>90s-Style Metal Arms</td>
+                    <td>$209</td>
+                    <td>Unarmed attacks deal damage. Ground pound attack: ranged, 3sq, target knocked down</td>
+                  </tr>
+                  <tr>
+                    <td>Zoomy Eyes</td>
+                    <td>$66</td>
+                    <td>Can see twice as far as normal</td>
+                  </tr>
+                  <tr>
+                    <td>Popup Diagnostiks</td>
+                    <td>$221</td>
+                    <td>+1 handeye, display can be turned on and off</td>
+                  </tr>
+                  <tr>
+                    <td>Pip Boi</td>
+                    <td>$72</td>
+                    <td>A smart phone in your arm, includes keyboard and wifi</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="lexci">
+            <h3>Lexwell Cybernetics, Inc.</h3> <p>(assuming 31.4% interest rate, $0 down for monthly payments)</p>
+            <table class="table table-striped table-dark table-sm ml-3 w-75">
+              <tbody>
+                <tr>
+                  <td>Third Eye</td>
+                  <td>$8000</td>
+                  <td>You have an extra eye. Great vision! $266/mo over 5 years</td>
+                </tr>
+                <tr>
+                  <td>Metal Kidneys</td>
+                  <td>$6200</td>
+                  <td>+1 toughness. When melee attacked, flip 1 for face or higher to reduce the damage by 1. 
+                    You can change your pee’s colors. $206/mo over 5 years</td>
+                </tr>
+                <tr>
+                  <td>Hand Blaster</td>
+                  <td>$11500</td>
+                  <td>Hand blaster attack: ranged, 1-10sq. Can also overload electronic circuits. $382/mo over 
+                    5 years</td>
+                </tr>
+                <tr>
+                  <td>Prehensile Tail</td>
+                  <td>$4980</td>
+                  <td>Can hold things for you, let you hang off things, and can knock people over as an action. 
+                    $165/mo over 5 years</td>
+                </tr>
+                <tr>
+                  <td>Autodefibrillating Heart</td>
+                  <td>$7255</td>
+                  <td>Will instantly revive you after getting KO'd and will restore 1 HP. Requires a 24hr recharge. 
+                    $241/mo over 5 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+
+    <div class="container" id="skill">
+      <div class="row">
+        <div class="col">
+          <h2>SKILLS</h2>
+          <p>You purchase skills like you would gear. When purchasing skills, you have two options. First, you can 
+            buy a new skill, which you then assign to a particular card: suit and number, like 4<black>♣</black>. Second, 
+            you can improve your expertise at a skill, where you then assign that skill to another card. Doing this 
+            though costs 50% more than the previous time you bought that skill. Because the value of the card is 
+            replaced by a skill, it’s a smart move to start assigning skills at the 2s and move upwards from there.</p>
+          <p>Unlike gear, skills come in tiers, grouped by cost. At higher tiers, the skills will be a combination 
+            of more interesting, better, more niche, having prerequisites, and so on.</p>
+          <p>Oh, you also get to start with a joker skill. These are bigger and splashier than 
+            other skills. After you play a <joker>joker</joker> in combat, take it out of your deck until the end of the combat 
+            encounter. They're also more archetypal, a signature ultimate action. They should in some way be tied 
+            to your character's cybernetic enhancements, favored weapon, or at the very least your highest, bestest 
+            attribute. Below are some examples, but feel free to make up one that works for you, your crew, and 
+            your GM. Can’t be too overpowered, right? You choose one at character creation, [and it gets stronger 
+            at regular intervals, which is why it’s important to keep track of the crew’s gross earnings.]</p>
+          <p>Some of the skills look like they’re items. That’s because they are. Items are special 
+            once-per-encounter skills that you take out of your deck instead of into your discard after you play 
+            them, like with joker skills.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Joker skills</h3>
+          <table class="table table-striped table-dark table-sm ml-3 w-75">
+            <tbody>
+              <tr>
+                <td>Soul-Forged</td>
+                <td>Melee</td>
+                <td>This attack does 3x damage. Can be used with a melee skill card.</td>
+              </tr>
+              <tr>
+                <td>Golden Gun</td>
+                <td>Ranged</td>
+                <td>Your gun is reloaded. For your next 3 gun attacks before resting, flip. If <black>black</black>, 
+                  you do 2x damage.</td>
+              </tr>
+              <tr>
+                <td>Ghost Hack</td>
+                <td>Smarts</td>
+                <td>Damage target for 2, and if it’s still alive you control its actions on its next turn.</td>
+              </tr>
+              <tr>
+                <td>Banshee Shriek</td>
+                <td>Face</td>
+                <td>All foes are knocked down, discard a card, and have their max hand size reduced by 1.</td>
+              </tr>
+              <tr>
+                <td>Rousing Speech</td>
+                <td>Face</td>
+                <td>You and all allies draw a card.</td>
+              </tr>
+              <tr>
+                <td>Endorphin Flood</td>
+                <td>Smarts</td>
+                <td>All allies regain 2 HP.</td>
+              </tr>
+              <tr>
+                <td>Boom Boom Bullet</td>
+                <td>Ranged</td>
+                <td>Attack all foes in a 4sq cube, 2x damage, destroys cover. Can be used with a ranged skill card.</td>
+              </tr>
+              <tr>
+                <td>No-Doubter</td>
+                <td>Melee</td>
+                <td>This attack does 2x damage, the target is disarmed, flung back 2sq, and knocked down.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Tier 1 skills - $120/180/270/405</h3>
+          <table class="table table-striped table-dark table-sm ml-3 w-75">
+            <tbody>
+              <tr>
+                <td>Whirlwind</td>
+                <td>Melee</td>
+                <td>This attack hits all foes within 1sq of you.</td>
+              </tr>
+              <tr>
+                <td>Richochet</td>
+                <td>Ranged</td>
+                <td>You can hit a target in range but not in line-of-sight.</td>
+              </tr>
+              <tr>
+                <td>Parkour</td>
+                <td>Movement, defense</td>
+                <td>Discard this card to move double distance, including climbing and dropping safely. If 
+                  you discard this card to defend an attack, your hand size isn’t reduced.</td>
+              </tr>
+              <tr>
+                <td>Disarm</td>
+                <td>Melee or ranged</td>
+                <td>Target’s weapon is flung away 2sq.</td>
+              </tr>
+              <tr>
+                <td>Headshot</td>
+                <td>Ranged</td>
+                <td>Name a card value then flip. If it matches or is a <joker>joker</joker>, you do 4 damage 
+                  to your target</td>
+              </tr>
+              <tr>
+                <td>DDOS</td>
+                <td>Smarts</td>
+                <td>Before a target can use any cyberized body part or electronic device, it has to flip. 
+                  <black>Black</black>: no effect. <red>Red</red>: can’t use it.</td>
+              </tr>
+              <tr>
+                <td>Heavy Smash</td>
+                <td>Melee</td>
+                <td>This attack does 2 damage.</td>
+              </tr>
+              <tr>
+                <td>Incendiary Rounds</td>
+                <td>Ranged</td>
+                <td>This attack does normal damage, and +1 fire damage at the end of each of target’s turns 
+                  it’s not put out.</td>
+              </tr>
+              <tr>
+                <td>Stimpack</td>
+                <td>Item</td>
+                <td>Play this card to regain 1 HP.</td>
+              </tr>
+              <tr>
+                <td>Suppressing Fire</td>
+                <td>Ranged</td>
+                <td>All foes in a 3sq cone discard a card.</td>
+              </tr>
+              <tr>
+                <td>Field Repair</td>
+                <td>Smarts</td>
+                <td>Any malfunctioning mechanical, electronic, or cyber object or part is now working.</td>
+              </tr>
+              <tr>
+                <td>Rally Cry</td>
+                <td>Face</td>
+                <td>Target draws a card.</td>
+              </tr>
+              <tr>
+                <td>Power Surge</td>
+                <td>Smarts</td>
+                <td>As long as target is part or is holding something metal, it is forced to rest.</td>
+              </tr>
+              <tr>
+                <td>Grenade</td>
+                <td>Ranged, item</td>
+                <td>Attack all foes in a 2sq cube, destroys all cover within blast.</td>
+              </tr>
+              <tr>
+                <td>Sonic Screwdriver</td>
+                <td>Item</td>
+                <td>Any non-organic thing is either immediately dismantled, or immediately back in working order.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Tier 2 skills - $256/384/576/864</h3>
+          <table class="table table-striped table-dark table-sm ml-3 w-75">
+            <tr>
+              <td>John Wick Shit</td>
+              <td>Melee, ranged</td>
+              <td>If this attack drops a foe to 0 HP or below, draw 2. All your guns are reloaded.</td>
+            </tr>
+            <tr>
+              <td>Bruce Lee Shit</td>
+              <td>Melee, defense</td>
+              <td>This attack does normal damage and forces the target to rest. If you discard this card to 
+                defend an attack, your hand size isn’t reduced.</td>
+            </tr>
+            <tr>
+              <td>Section 9 Shit</td>
+              <td>Smarts</td>
+              <td>All foes discard 1 card and flip. If <red>red</red>, discard 1 more. If <red>red</red> ace, 
+                discard 2 more.</td>
+            </tr>
+            <tr>
+              <td>Magneto Shit</td>
+              <td>Defense</td>
+              <td>When this card is discarded to defend an attack, the attacking foe takes the damage instead.</td>
+            </tr>
+            <tr>
+              <td>Death Star Shit</td>
+              <td>Ranged</td>
+              <td>Requires Eye Lasers. Make an eye laser attack, it does 2x damage and any target that takes 
+                damage also discards a card.</td>
+            </tr>
+            <tr>
+              <td>Sherlock Holmes Shit</td>
+              <td>Smarts</td>
+              <td>This attack does 2 damage and the target discards a card at random.</td>
+            </tr>
+            <tr>
+              <td>White Mage Shit</td>
+              <td>Face</td>
+              <td>Heal yourself and anyone else you choose within 2sq 1 HP.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="rules">
+      <div class="row">
+        <div class="col">
+          <h2>RULES</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8" id="check">
+          <h3>Checks</h3>
+          <p>Your GM will ask you to make a check if you’re trying to do something that requires more than a normal amount of skill or expertise. Normal movement, talking, reading—all that stuff just happens. But let’s say you’re trying to jump across to the next building, convince an NPC to do something, hold a door shut, hack into a system, pickpocket a fool—time to make a check.</p>
+          <p>To make a check, flip, from a freshly shuffled deck, cards equal to your the score in the relevant attribute. Look back up at what attributes cover and make the best choice here. If what you’re trying to do saddles the line between a couple attributes, you can argue your case and how you’ll try to accomplish what you’re going for to the GM. If he/she finds that reasonable, go for it.</p>
+          <p>From those cards you flipped, choose the two highest values, add them up, and add your attribute score to that. Tell the GM the total. For a relatively doable task, you’re looking to hit a 13. Harder tasks scale up from there to 30, which is an almost-impossible task. If it’s a task someone can reasonably help you with (meaning they have at least 3 in that attribute), they help you by letting you draw an extra card.</p>
+          <p>Here are the exceptions and caveats and special rules. Aces here work differently: a <black>black ace</black> means you caught a break so all your <black>black</black> cards are worth +2 (which also means that ace is worth 14+2=16); flipping a <red>red ace</red> means something messed up and all <red>red</red> cards you flipped are worth 2. If you flip a <joker>joker</joker>, you can either replace one of the cards you flipped or flip an additional card. If one of the cards you flip is a skill, instead of choosing two cards to use on the check, you can instead choose one and double its value.</p>
+          <p>Sometimes things happen to you and you have to react. For example, someone might be trying to sneak up on you, or you might have walked into a trap, or what you’re doing might trigger a silent alarm. In these situations, you’re making a reaction check. The GM will tell you to flip a card in reaction and will tell you the attribute you’re reacting with (like if your crew is walking through an alley and into a net trap nobody saw, footwork would help you jump out of the way). Refer to this chart to the right to see what you need to flip to succeed. Unlike in proactive checks, flipping aces in reactive checks do not crit.</p>
+          <p>You always shuffle after a skill check.</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="border bg-secondary text-dark p-2">
+          <strong>Example: Checks</strong>
+          <p>R4mb0 wants to defuse a bomb he found under his motorcycle. He’ll need to use smarts to figure out which wire to cut. He’s got 3 in smarts.</p>
+          <p>The GM decides this is a pretty shitty homemade bomb, so R4mb0’s target is 18: tough, but not impossible.</p>
+          <p>R4mb0 flips 3 cards: 6<red>♥</red>, 2<red>♥</red>, 4<red>♥</red>. Not great, but he slotted the Heavy Smash skill into 2<red>♥</red>. That means he can double the value of a card, but 12 isn’t good enough. The bomb explodes.</p>
+          <p>The GM decides that he can make a reaction check. His 4 points in footwork means he needs to flip black.</p>
+          <p>R4mb0 flips 9<black>♠</black>. He’s able to jump away in time, but his bike’s totally trashed.</p>
+          </div>
+          <br>
+          <table class="table table-striped table-dark table-sm ml-3 w-75">
+            <caption><em>Reaction checks</em></caption>
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" style="text-align:right;">Attribute score</th>
+                <th scope="col">Target</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="right">0</td>
+                <td>Ace or <joker>joker</joker></td>
+              </tr>
+              <tr>
+                <td align="right">1-2</td>
+                <td>Face or higher</td>
+              </tr>
+              <tr>
+                <td align="right">3-4</td>
+                <td><black>Black</black></td>
+              </tr>
+              <tr>
+                <td align="right">5+</td>
+                <td>≥5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-6" id="comba">
+          <h3>Combat encounters</h3>
+          <p>Before a combat encounter gets under way, the GM will first give your crew a layout of the area, including buildings, objects usable for cover, and where the bad guys are that are in your crew’s line of sight (or that have otherwise given themselves away). You also figure out initiative order, which is described in the attributes section.</p>
+          <p>At the beginning of your turn in an encounter, you draw up to your max hand size, which starts at 5 cards. On your turn, you can do as much as little as you want, provided you have the cards.</p>
+          <p>If you want to move, discard a card from your hand to move up to your max (see attributes). Standing up from being knocked down counts as a move as well.</p>
+          <p>The most common basic actions in combat are melee and ranged attacks, but skills, reloading, and item use are also considered actions. Any actions not explicitly listed here, like grappling, dragging, etc., are still actions. All actions will require you to play 2 cards. For melee and ranged attacks, choose two cards, add their values, and add your relevant attribute score—for melee that’s generally toughness, for ranged that’s generally handeye (your gear or cyberware will tell you if you’ve got more or different options). Your attack hits if your total action value is higher than 13 + target’s relevant attribute (footwork to avoid a ranged attack, toughness to deflect a melee attack).</p>
+          <p>Ranged attacks and some actions given by cybernetics list their effective range in squares. This does not mean they are worthless outside of those ranges, but for every 1sq beyond the range, add 2 to the target score needed for a hit.</p>
+          <p>To reload, make sure you have ammo available, then discard any two cards in your hand. To use an item, discard another card and remove the item card from your deck until the end of the encounter. For skills, you play the skill card with another card in your hand. Your total action value is 2x the value of the second card plus your relevant attribute score.</p>
+          <p>Repairing stuff uses your smarts attribute. If something is damaged, it takes one turn to repair during combat. If something is broken, it can't be repaired during combat but can be with time outside of combat.</p>
+          <p>Aces count as 14s—the highest value card—and if played with a face card or a skill card, you critically hit, doing +1 damage and forcing the target to discard a card. Critical hits can be defended, but you can’t escape unscathed: you still take 1 damage total if you defend.</p>
+          <p>Playing a <joker>joker</joker> activates your joker skill. After your joker skill resolves, remove the <joker>joker</joker> from your deck until the end of the encounter and shuffle.</p>
+          <p>You (well, everyone) can also defend against attacks. To defend, you need to have cards in your hand—if you played them all on your turn, you can’t defend (remember, you only draw at the beginning of your turn). To defend an attack, you discard a card from your hand, but by doing so you reduce your max hand size by 1 until you rest.</p>
+          <p>Resting is a special action. You have to rest if you have no cards in your deck at the beginning of your turn, but you can also choose to rest on your turn. Resting takes your entire turn—you can’t attack then rest, or move then rest—but it lets you shuffle. You don’t regain any HP or anything though. Remember, you only draw your hand at the beginning of your turns, which means you don’t draw after you rest until it’s your turn again.</p>
+          <p>HPs, getting KO’d, and dying are all covered in the attribute section. One note though: if you are KO’d and need to flip but you have no deck, you shuffle then flip.</p>
+          <p>Disarming does what it says on the box: the target of a disarming attack drops their weapon, and sometimes it gets flung away. When someone gets disarmed, they flip: <red>red</red> face, the weapon is damaged (broken if <red>red</red> ace); otherwise, no problems.</p>
+          <p>You always shuffle after a combat encounter.</p>
+        </div>
+        <div class="col-6">
+          <div class="border bg-secondary text-dark p-2">
+          <strong>Example: combat encounters</strong>
+          <p>R4mb0 and Devochkill are confronted in an alley by two members of the Country Club Boys. It’s a kind of wide alley, but there’s a large dumpster near our heroes and a fire escape near the CCBs on the western building. There’s trash everywhere and a couple rats skitter away.</p>
+          <p>The CCBs flip a jack (+3 footwork) and win initiative, then it’s Devochkill (flipped 8+3) and R4mb0 (flipped 4+4). The GM draws hands for the CCBs, and the players draw for themselves.</p>
+          <p><em>Round 1</em>: One of the CCBs, let’s call him Don, discards 1 to climb up onto the fire escape. He takes a shot at Devochkill, playing king+9+3=25. Devochkill’s only got a toughness of 2 and hates getting chumped on the first round, so she discards a card to defend, avoiding the shot.</p>
+          <p>The other CCB, Ald, charges at R4mb0 with his baseball bat. He discards 1 to run up, then plays 9+10+3=22. That’s more than R4mb0’s 18 (13+5 toughness), so he takes 1 damage, putting him at 5/6.</p>
+          <p>Because Devochkill defended Don’s attack, she can’t dive behind the dumpster like she wanted, so she just stays put and shoots at Ald with her shotgun, playing 5+jack+4=20, dealing 1 damage. She then uses her 3<red>♥</red> skill—Eye Laser: Superman Style—with a 7 for a total of 2x7+4=18, again dealing damage to Ald.</p>
+          <p>R4mb0 knows that Ald’s hurting bad, so he plays ace+queen+5 to smash him with his hammer, dealing a critical hit. Ald has to defend or he’d be KO’d, so he discards a card, only taking 1 damage. R4mb0’s pissed that Ald defended, so he attacks again: jack+7+5=23. Again, Ald has to defend, discarding his last card. With his last card, R4mb0 discards to duck behind the dumpster.</p>
+          <p><em>Round 2</em>: Don draws back up to 5. From his vantage point, he’s going to take 2 shots at Devochkill since he can’t see R4mb0 anymore. He plays 6+queen+3=21 and 10+10+3=23. Devochkill can take them both and she will because she doesn’t want to be at further card disadvantage.</p>
+          <p>Ald can only draw 3 cards since he defended twice. Knowing he’ll probably die next turn, he’ll discard one to move up to Devochkill—maybe he can take her with him. He plays 8+king+3=24. Devochkill is pissed she has to defend again so she won’t get KO’d by this dick, so she does.</p>
+          <p>Devochkill can only draw up to 3 cards, but she smiles when she sees what she drew. She plays 2<red>♥</red>, which is her grenade, with a 10, totalling 10x2+4=24, lobbing it at Don. Don knows he’s screwed because the only way he can dodge the blast damage from the grenade is to jump off of the fire escape, but he does it anyway, discarding. Because he fell 2sq though, he takes 1 damage. The GM figures that he’ll have to evade the falling fire escape as well, so she has Don make a reaction check. His footwork is 3, so all he has to flip is <black>black</black>, but he flips 8<red>♥</red>. He takes another damage, is disarmed, knocked down, and pinned.</p>
+          <p>R4mb0 knows Ald has no cards left, so he draws up and plays king+6+5=24 to cave in Ald’s skull. He discards 1 to move up to Don. He sticks his sledgehammer in Don’s face then asks him if he’d rather die right here, right now, or if he’d like to explain why these fancy boys were so far out of their territory. Don says he’ll talk.</p>
+          <p><em>Wrap-up</em>: Don and Ald had $57 on them, plus an SMG and a baseball bat. Don tells your crew that their leader, Green Jacket, is looking to expand his territory and was putting out feelers for easy pickings.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-3"><img src="img/combat.jpg" class="img-fluid"></div>
+        <div class="col-9" id="other">
+          <h3>Other rules</h3>
+          <p>Falling damage: 1 per every 2sq you fall straight down (this is assuming you’ve failed a reaction check or intentionally chose to fall or jump)</p>
+          <p>Switching weapons is a free action, meaning you can just do it. If you pick up a foe’s gun, flip for black to see if it’s loaded. The value of the black card you flip is how many rounds are loaded, up to the gun’s max.</p>
+          <p>Driving checks, both proactive and reactive, are going to be handeye. The difficulty of succeeding on a check should consider the quality of your vehicle, your familiarity with it, driving and road conditions, and what you’re trying to accomplish. Again, normal driving is a normal thing and doesn’t need a check.</p>
+          <p>If you flip a <joker>joker</joker>, your joker skill does not activate. You’ll succeed at whatever it was you flipped for no doubt, but the <joker>joker</joker> skips your hand and goes straight to the discard pile.</p>
+          <p>Yes, you can try to harvest cybernetics from fallen enemies. It is very hard to do it yourself, but you can also pay one of Dok Roberks’ interns to do it for you. To do it yourself, you need to succeed on both a smarts and a handeye check. It’s delicate work so nobody can help you out. The targets for those checks are at the GM’s discretion and should take into consideration your familiarity with cybernetics, that particular part/part of the body, and any studying you’ve done on the subject. 25 is about right though for a precision job.</p>
+          <p>Yes, you can try to implant cybernetics you’ve harvested or found by yourself. Again, it’s hard to do, but you can keep shelling out to those interns if you need to. To do it yourself to another crew member, you need to succeed on both a smarts and a handeye check. The same stipulations and caveats from harvesting apply here too.</p>
+          <p>Selling stuff you don’t want, like weapons and cybernetics, will give you 50% of its cost on the black market if it’s in good condition. 25% if it’s damaged. Use normal rounding rules, nobody deals in parts of dollars anymore.</p>
+          <p>It’s up to the GM to decide how time works, especially like when it’s been a month. A general rule of thumb though is that you and your crew can knock out one big job—a heist, an assassination, a recon, a shipment delivery, a meetup with a new contact—every week.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="cheat">
+      <div class="row">
+        <div class="col">
+          <h2>CHEATSHEET</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Character creation</h3>
+          <p>Put 10 points into the 5 attributes. No more than 4 in one, you can put 0.</p>
+          <ul class="pl-0">
+            <li><strong>Face</strong>: intimidate, charm, deal</li>
+            <li><strong>Footwork</strong>: speed, dodging</li>
+            <li><strong>Handeye</strong>: shooting, driving, stealing</li>
+            <li><strong>Toughness</strong>: HP, blocking, melee</li>
+            <li><strong>Smarts</strong>: hacking, repairing</li>
+            <li>&nbsp;</li>
+            <li>HP = 1 + toughness</li>
+            <li>Movement = 4sq + footwork</li>
+          </ul>
+          <p>You have $473 to spend on gear and skills. You get 1 joker skill for free.</p>
+          <p>Gear usually gives you passive bonuses and determines your attacks and actions. They go on your character
+            sheet when you buy them.</p>
+          <p>Skills generally modify your attacks and other actions. When you buy them, you assign them to a card 
+            value.</p>
+        </div>
+        <div class="col">
+          <h3>Flip</h3>
+          <p>Most checks are resolved by flipping cards. Checks can be proactive (player-initiated) or reactive 
+            (GM-initiated).</p>
+          <p><strong>Proactive</strong>: flip X, where X is the number of points in the relevant attribute. Add the two highest 
+            values and your attribute score. If the total meets or exceeds the target, you succeed. A target of 13
+            requires a bit of effort, 30 is almost impossible. The GM determines the target before you flip.
+            If you flip a <black>black ace</black>, all your <black>black</black> cards are +2. If you flip a 
+            <red>red ace</red>, the value of all your <red>red</red> cards are 2. If you flip a <joker>joker</joker>
+            you can either replace a card or flip an additional card. If you flip a skill card, choose one card 
+            you flipped and double its value.</p>
+          <p><strong>Reactive</strong>: flip 1. Your attribute score determines the target you need to flip: 5+ needs ≥5, 
+            3-4 needs <black>black</black>, 1-2 needs face or ace, 0 needs ace. Flipping a <joker>joker</joker> 
+            is an automatic success. Aces have no additional effect, nor do skill cards.</p>
+        </div>
+        <div class="col">
+          <h3>Combat</h3>
+          <p>Initiative order: flip 1 + footwork.</p>
+          <p>Starting hand size is 5, draw up to it.</p>
+          <ul class="pl-0">
+            <li><strong>Movement</strong>: discard a card, move up to your max</li>
+            <li><strong>Melee attack</strong>: add values of 2 cards + toughness*, target = 13 + opponent's 
+              toughness</li>
+            <li><strong>Ranged attack</strong>: add values of 2 cards + handeye*, target = 13 + opponent's 
+              footwork</li>
+            <li><strong>Reload</strong>: discard two cards</li>
+            <li><strong>Skills</strong>: double value of one card + relevent attribute for the action 
+              (skills that are items or do not modify an attack must still be played with a second card)</li>
+            <li><strong><joker>Joker</joker></strong>: activates your joker skill, then remove this card from 
+              your deck and reshuffle</li>
+            <li><strong>Repair</strong>: add values of 2 cards + smarts, target determined by GM depending on
+              how damaged the item is</li>
+            <li><strong>Defend</strong>: discard a card and reduced your hand size by 1</li>
+            <li><strong>Rest</strong>: discard as many cards as you like and reshuffle (you have to rest if 
+              your deck is empty, and you cannot take any other actions on turns when you rest)</li>
+          </ul>
+          <p>* some gear or skills might tell you to use a different attribute</p>
+        </div>
+      </div>
+    </div>
+
+    <!— Optional JavaScript —>
+    <!— jQuery first, then Popper.js, then Bootstrap JS —>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
