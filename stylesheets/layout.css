@@ -56,3 +56,12 @@
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+@font-face {
+    font-family: 'flareserif821_btroman';
+    src: url('../stylesheets/flareserif-821-bt_17879-webfont.woff2') format('woff2'),
+         url('../stylesheets/flareserif-821-bt_17879-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
