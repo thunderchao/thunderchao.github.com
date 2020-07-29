@@ -74,6 +74,15 @@ header { margin-top: 2em; }
 
 nav li { font-family: "flareserif821_btroman", "Georgia", serif; }
 
+#photo-f {
+    width: 240px;
+    clip-path: circle(50% at 50% 50%);
+    float: right;
+    position: relative;
+    left: 100px;
+    margin-left: -80px;
+}
+
 @media screen and (max-width: 767px) {
     .full-size { display: none; }
     .mobile {
@@ -103,7 +112,7 @@ nav li { font-family: "flareserif821_btroman", "Georgia", serif; }
         left: 0;
     }
     .container {
-        left: -220px;
+        left: -280px;
     }
     .nav-toggler {
         display: block;
@@ -117,11 +126,19 @@ nav li { font-family: "flareserif821_btroman", "Georgia", serif; }
     } 
     #mini-logo {
         display: block;
-        width: 360px;
+        width: 320px;
         padding-top: 10px;
     }
     hr.large {margin: 10px 0;}
     hr.medium {margin: 10px 0;}
     li a.button.full-width { width: 90%; }
+    #photo-s {
+        width: 180px;
+        clip-path: circle(50% at 50% 50%);
+        float:right;
+        position: relative;
+        left: 60px;
+        margin-left: -60px;
+    }
 }
 
