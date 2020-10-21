@@ -6,6 +6,13 @@ hr.medium {
     border: none; height: 4px; background: #ebebeb; margin: 50px 0;
     display: block; clear: both; border-width: 1px 0 0;
 }
+hr.navbar {
+    background-color: #1a2a1a;
+    border: 1px #1a2a1a solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
 nav {
     position: fixed;
     width: 220px;
@@ -52,7 +59,7 @@ button.close-menu {
 #toggle {
     margin: 5px 30px;
 }
-.mobile {
+.mobile, .imgmobile {
     display: none;
 }
 body {
@@ -81,6 +88,10 @@ nav li { font-family: "flareserif821_btroman", "Georgia", serif; }
     position: relative;
     left: 100px;
     margin-left: -80px;
+}
+
+#copyright {
+  font-size: smaller;
 }
 
 @media screen and (max-width: 767px) {
@@ -112,33 +123,42 @@ nav li { font-family: "flareserif821_btroman", "Georgia", serif; }
         left: 0;
     }
     .container {
-        left: -280px;
+        left: -240px;
+        width: 300px;
     }
     .nav-toggler {
         display: block;
         position: fixed;
-        top: 30px;
+        top: 5px;
         left: 5px;
         z-index: 19;
     }
     h1 {
         display: none;
-    } 
+    }
     #mini-logo {
         display: block;
-        width: 320px;
+        width: 300px;
         padding-top: 10px;
     }
     hr.large {margin: 10px 0;}
     hr.medium {margin: 10px 0;}
+    hr.navbar {margin-left: 25px;}
     li a.button.full-width { width: 90%; }
-    #photo-s {
+    /*#photo-s {
         width: 180px;
         clip-path: circle(50% at 50% 50%);
         float:right;
         position: relative;
         left: 60px;
         margin-left: -60px;
+    }*/
+    .imgmobile { display: inline; width:100%; }
+    h3 {
+      padding-top: 10px;
+      background-color: rgb(20, 20, 20);
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
     }
 }
-
