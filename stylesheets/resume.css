@@ -25,6 +25,9 @@ ul {
     list-style: none; 
     list-style-position: outside;
 }
+.jobdesc {
+    margin-bottom: 10px;
+}
 a {
     color: blue;
 }
