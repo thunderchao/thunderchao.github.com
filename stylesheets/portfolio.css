@@ -1,0 +1,14 @@
+.spacer {
+    margin-top: 30rem;
+    margin-bottom: 30rem;
+}
+.topspacer {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+}
+img:hover {
+    box-shadow: 0 0 2px 2px red;
+}
+.c {
+    text-align: center;
+}
